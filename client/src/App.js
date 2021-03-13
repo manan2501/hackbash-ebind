@@ -1,12 +1,13 @@
-import { Affix } from "antd";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Auth from "./pages/Auth";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" componen="Auth" />
-        <Route path="/home" componen="Home" />
+        <Route exact path="/" component={Auth} />
+        <Route path="/home" component={Home} />
       </Switch>
     </Router>
   );
