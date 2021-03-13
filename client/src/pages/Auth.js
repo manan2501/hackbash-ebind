@@ -8,4 +8,4 @@ const Auth = () => {
   );
 };
 
-export default Home;
+export default Auth;
